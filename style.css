@@ -1,7 +1,7 @@
-* {
+*{
   box-sizing: border-box;
 }
-body {
+body{
   max-width: 1024px;
   min-width: 800px;
   margin: 0 auto;
@@ -18,17 +18,17 @@ body {
   -moz-box-shadow: 1px 81px 100px 5px rgba(0,0,0,0.49);
   box-shadow: 1px 81px 100px 5px rgba(0,0,0,0.49);
 }
-.photo {
+.photo{
   width: 100%;
   margin: 0;
 }
-.photo img {
+.photo img{
   width: 100%;
   -webkit-box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.49);
   -moz-box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.49);
   box-shadow: 5px 6px 32px 1px hsla(125, 87%, 78%, 0.49);
 }
-.about {
+.about{
   padding: 1rem;
   width: 40%;
   color: white;
@@ -38,7 +38,7 @@ body {
   justify-content: flex-start;
   align-items: stretch;
 }
-.underlined {
+.underlined{
   width: 100%;
   height: .05rem;
   margin-top: 0.5rem;
@@ -48,7 +48,7 @@ body {
 .contacts{
   font-size: 16px;
 }
-.contacts li img {
+.contacts li img{
   vertical-align: middle;
   margin-right: 10px;
 }
@@ -64,13 +64,13 @@ line-height: 24px
 {
 line-height: 24px
 }
-.about-me {
+.about-me{
   padding: 1rem;
   width: 45%;
   color: #813d3d;
   background-color: white;
 }
-.navigation {
+.navigation{
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
@@ -79,10 +79,10 @@ line-height: 24px
   text-align: center;
   text-transform: uppercase; 
 }
-a {
+a{
   text-decoration: none;
 }
-.nav-container {
+.nav-container{
   display: flex;
   width: 16%;
   font-size: 15px;
@@ -91,7 +91,7 @@ a {
   justify-content: flex-start;
 }
 
-.navigation a:hover { 
+.navigation a:hover{ 
   background-color: #cfbebe;
   color: #ffffff;  
   font-weight: 600;
