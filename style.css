@@ -14,6 +14,39 @@ body {
   background-color: #e6e2d4;
 }
 
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-color: #6092d360;
+  border: black solid 1px;
+}
+
+.nav {
+  width: 100%;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  transition: 0.3s ease;
+  display: inline-block;
+}
+
+.nav-link:hover {
+  color: rgb(8, 131, 29);
+  transform: scale(1.6);
+}
+
 .center {
   max-width: 1024px;
   margin: auto;
@@ -82,32 +115,6 @@ ul.info {
   padding-left: 1%;
   color: #813d3d;
   background-color: white;
-}
-
-.nav-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  box-sizing: border-box;
-}
-
-
-.navigation {
-  width: 100%;
-  list-style: none;
-  padding-left: 1%;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-a {
-  text-decoration: none;
-}
-
-.navigation a:hover {
-  background-color: #cfbebe;
-  color: #ffffff;
-  font-weight: 600;
 }
 
 .footer {
