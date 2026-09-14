@@ -1,2 +1,1 @@
-# https://AntonDasko.github.io/rsschool-cv/cv
-# https://AntonDasko.github.io/rsschool-cv/
+RSSchool_2026Q3_Stage1-2
